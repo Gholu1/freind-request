@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(212, 255, 255);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  margin-top: 30px;
+  height: 500px;
+  width: 300px;
+  border-radius: 6px;
+  background-color: white;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#card img {
+  width: 100%;
+  height: 50%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 4px;
+}
+#card h1 {
+  /* margin-left: 10px 0;
+  margin-top: 5px; */
+  margin: 10px 0;
+  font-size: 25px;
+}
+#card h5 {
+  margin: 10px 0;
+
+  /* margin-top: 5px; */
+  font-size: 25px;
+  color: red;
+  font-size: 20px;
+}
+#btn-contenor {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 100px;
+  /* display: flex; */
+}
+#remove:hover {
+  background-color: rgb(178, 213, 244);
+}
+#lodabutton:hover {
+  background-color: rgb(178, 213, 244);
+}
+#lodabutton {
+  background-color: azure;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  font-weight: bold;
+  /* border: none; */
+}
+#remove {
+  background-color: azure;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  font-weight: bold;
+  /* border: none; */
+}
